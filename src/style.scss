@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(./paper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  *,
+  *:focus { outline: none; }
+  canvas {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 96vw;
+    min-height: 96vh;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background: transparent;
+    user-select: none;
+  }
+}
